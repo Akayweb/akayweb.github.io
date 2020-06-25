@@ -1,0 +1,43 @@
+.col{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.navbar{
+	background: #f97300;
+}
+.navbar, .navbar-brand{
+	 color: red; cursor: pointer;
+} 
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:{
+	background:
+	f4f4f4; color: #f97300;}
+	.navbar-collapse{justify-content: flex-end;}
+	.navbar-toggler{ !important;}
+
+	/*header style*/
+	.header{
+		background-image: url(im/era.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 30%;
+	}
+	.description{
+		position: absolute;
+		top: 30%
+		padding:2em;
+		margin:auto;
+	}
+
+	.description h3{
+		color: #f97300;
+	}
+	.description button{
+		border:1px solid #f97300;
+		background:#f97300;
+		color: #fff;
+	}
